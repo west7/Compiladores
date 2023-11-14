@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"be64ce21fbdd762e","type":"text","text":"Pré-processador","x":-220,"y":-233,"width":193,"height":60,"color":"6"},
+		{"id":"41acd17c7b3d6a4b","type":"text","text":"Compilador","x":110,"y":-60,"width":156,"height":60,"color":"6"},
+		{"id":"8636e89712ffed91","type":"text","text":"","x":-640,"y":-239,"width":80,"height":65},
+		{"id":"3fc4bd8e51f7ac1d","x":-460,"y":-59,"width":147,"height":60,"color":"6","type":"text","text":"Montador"},
+		{"id":"2e8ee02c1efd1928","x":-178,"y":160,"width":151,"height":60,"color":"6","type":"text","text":"Carregador\n"},
+		{"id":"5c67d473c1e57a0b","x":300,"y":160,"width":172,"height":60,"color":"6","type":"text","text":"Dependências"},
+		{"id":"778be5822e802829","x":-216,"y":425,"width":227,"height":60,"color":"6","type":"text","text":"Programa executável"}
+	],
+	"edges":[
+		{"id":"2765a7c92cdd9f1e","fromNode":"8636e89712ffed91","fromSide":"right","toNode":"be64ce21fbdd762e","toSide":"left","label":"esqueleto programa fonte"},
+		{"id":"91423ec8c2e5e75b","fromNode":"be64ce21fbdd762e","fromSide":"right","toNode":"41acd17c7b3d6a4b","toSide":"top","label":"Programa fonte"},
+		{"id":"70caa44d27024d7b","fromNode":"41acd17c7b3d6a4b","fromSide":"left","toNode":"3fc4bd8e51f7ac1d","toSide":"right","label":"Programa na linguagem alvo"},
+		{"id":"9475f1ebbe1c39a7","fromNode":"3fc4bd8e51f7ac1d","fromSide":"bottom","toNode":"2e8ee02c1efd1928","toSide":"left","label":"Código de máquina\nrealocável"},
+		{"id":"a49fe58d95d1c34e","fromNode":"5c67d473c1e57a0b","fromSide":"left","toNode":"2e8ee02c1efd1928","toSide":"right","label":"Bibliotecas\nArquivos\nObjetos realocáveis"},
+		{"id":"32444f17f4f29ae1","fromNode":"2e8ee02c1efd1928","fromSide":"bottom","toNode":"778be5822e802829","toSide":"top"}
+	]
+}
