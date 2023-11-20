@@ -23,14 +23,28 @@
             "id": "b94a1edb969368a9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "compiladores/2_3_traducao_dirigida_pela_sintaxe.pdf"
+                "file": "vault/Aula01/Fases de um compilador.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "332a15e06966bdab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vault/Aula01/-main.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "compiladores/2_3_traducao_dirigida_pela_sintaxe.pdf",
+                "file": "vault/Aula01/-main.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -113,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "compiladores/2_3_traducao_dirigida_pela_sintaxe.pdf",
+                "file": "vault/Aula01/-main.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "compiladores/2_3_traducao_dirigida_pela_sintaxe.pdf"
+                "file": "vault/Aula01/-main.md"
               }
             }
           }
@@ -157,9 +171,21 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "b94a1edb969368a9",
+  "active": "332a15e06966bdab",
   "lastOpenFiles": [
+    "vault/assets/Fluxo Programa Executável.png",
+    "vault/Aula01/-main.md",
+    "vault/Aula01/Análise e Síntese.md",
+    "vault/Aula01/Árvore Gramatical.canvas",
+    "vault/Aula01/Árvore Sintática.canvas",
+    "vault/Aula01/Exemplo Análise.canvas",
+    "vault/Aula01/Fases Compilador.canvas",
+    "vault/Aula01/Fluxo Programa Executável.canvas",
     "vault/Aula04/-main.md",
+    "vault/assets",
+    "vault/Pasta sem título",
+    "vault/Aula01/Interfaces de Vanguarda e Retaguarda.md",
+    "vault/Aula01/Fases de um compilador.md",
     "compiladores/2_3_traducao_dirigida_pela_sintaxe.pdf",
     "vault/Aula03/Operadores.md",
     "vault/Aula03/-main.md",
@@ -170,14 +196,9 @@
     "vault/Aula03/Árvore ambígua.canvas",
     "Árvore ambígua.md",
     "vault/Aula03/Árvore.canvas",
-    "vault/Aula01/Árvore Gramatical.canvas",
     "vault/Aula11/Interação entre o scanner e o parser.canvas",
     "vault/Aula16/diagramaAFN.canvas",
     "vault/Aula09/Tradução de condicionais e laços.canvas",
-    "vault/Aula09/Exemplo máquina de pilha.canvas",
-    "vault/Aula01/Fluxo Programa Executável.canvas",
-    "vault/Aula01/Fases Compilador.canvas",
-    "vault/Aula01/Exemplo Análise.canvas",
     "Árvore.md",
     "vault/Aula03/Sem título 1.md",
     "compiladores/2_1_visao_geral.pdf",
@@ -188,14 +209,8 @@
     "vault/Aula09/Máquina de pilha abstrata.md",
     "compiladores/2_9_juntando_as_tecnicas.pdf",
     "compiladores/2_8_maquinas_de_pilha_abstratas.pdf",
-    "banco_de_provas/provas/2023_1_Gab2.pdf",
-    "banco_de_provas/provas/2023_1_P2.pdf",
     "vault/Aula16/Automatos.md",
-    "vault/Aula01/Fases de um compilador.md",
-    "vault/Aula01/Análise e Síntese.md",
     "vault/Aula01/Tokens.md",
-    "vault/Aula01/-main.md",
-    "vault/Aula01/Interfaces de Vanguarda e Retaguarda.md",
     "vault/Aula01/teste/Tokens.md",
     "vault/Aula01/teste/Interfaces de Vanguarda e Retaguarda.md",
     "vault/Aula01/teste/-main.md"
