@@ -4,7 +4,7 @@ Um compilador é um programa que pega outro programa escrito em uma linguagem al
 Normalmente, a entrada de um compilador é um programa escrito em linguagem tradicional, e a saída pode ser tanto outro programa em linguagem tradicional como em linguagem de máquina [[assembly]].
 
 [Fluxo Programa Executável](Fluxo%20Programa%20Executável.canvas)
-![Fluxo programa executável](Pasted%20image%2020231119215842.png)
+![Fluxo programa executável](../assets/Pasted%20image%2020231119215842.png)
 # [Análise e Síntese](Análise%20e%20Síntese.md)
 Um compilador pode ser dividido em duas partes análise e síntese. As duas partes podem ser pensadas como uma escalada de montanha, onde, a subida seria a parte de análise, o nível de abstração aumenta gradativamente, até um ponto no qual a análise constrói uma representação intermediária do código original, e, na descida da montanha, a síntese irá construir o programa alvo a partir desta representação.  As duas partes de um compilador podem também ser desmembradas em 3 fases cada.
 # [Fases de um compilador](Fases%20de%20um%20compilador.md)
