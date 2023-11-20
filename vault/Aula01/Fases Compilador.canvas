@@ -3,11 +3,11 @@
 		{"id":"b8e8885a382be9bc","type":"text","text":"Análise Semântica","x":-684,"y":-120,"width":204,"height":60},
 		{"id":"2a77733d8c249ccb","type":"text","text":"Análise Sintática","x":-684,"y":-280,"width":204,"height":60},
 		{"id":"b4696be750d902a2","type":"text","text":"Análise Léxica","x":-684,"y":-440,"width":204,"height":60},
-		{"id":"30b4fe81f144ed60","type":"text","text":"","x":-607,"y":-620,"width":50,"height":50},
+		{"id":"30b4fe81f144ed60","type":"text","text":"","x":-607,"y":-620,"width":50,"height":50,"color":"#1e1e1e"},
 		{"id":"b9bdfbc580c7ef13","type":"text","text":"Gerador de código intermediário","x":-181,"y":-120,"width":200,"height":60},
 		{"id":"ce4b71b7f210fe82","type":"text","text":"Otimizador de código","x":-181,"y":-280,"width":200,"height":60},
 		{"id":"33dacda0be0ee62b","type":"text","text":"Gerador de código ","x":-181,"y":-440,"width":200,"height":60},
-		{"id":"fcf9bc36c5e46c66","type":"text","text":"","x":-106,"y":-620,"width":50,"height":50},
+		{"id":"fcf9bc36c5e46c66","type":"text","text":"","x":-106,"y":-620,"width":50,"height":50,"color":"#1e1e1e"},
 		{"id":"f329cba40d02c0f3","type":"text","text":"Gerência da Tabela de Símbolos","x":-1080,"y":-440,"width":300,"height":88,"color":"5"},
 		{"id":"2d39c506a625d2fc","type":"text","text":"Tratamento de Erros","x":-1080,"y":-148,"width":300,"height":88,"color":"5"}
 	],

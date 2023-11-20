@@ -8,14 +8,29 @@
         "type": "tabs",
         "children": [
           {
-            "id": "344a6afc028a4095",
+            "id": "fca0c67afc1e9253",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "vault/Aula04/-main.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b94a1edb969368a9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "compiladores/2_3_traducao_dirigida_pela_sintaxe.pdf"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 288.5
   },
   "right": {
     "id": "97e043b090b073b6",
@@ -81,8 +96,9 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "compiladores/2_3_traducao_dirigida_pela_sintaxe.pdf",
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -97,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "compiladores/2_3_traducao_dirigida_pela_sintaxe.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +135,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "compiladores/2_3_traducao_dirigida_pela_sintaxe.pdf"
+              }
             }
           }
         ]
@@ -138,8 +157,47 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "344a6afc028a4095",
+  "active": "b94a1edb969368a9",
   "lastOpenFiles": [
-    "compiladores/2_9_juntando_as_tecnicas/2_9_juntando_as_tecnicas.pdf"
+    "vault/Aula04/-main.md",
+    "compiladores/2_3_traducao_dirigida_pela_sintaxe.pdf",
+    "vault/Aula03/Operadores.md",
+    "vault/Aula03/-main.md",
+    "compiladores/2_4_a_analise_gramatical.pdf",
+    "vault/Aula02/-main.md",
+    "compiladores/2_2_definicao_da_sintaxe.pdf",
+    "vault/assembly.md",
+    "vault/Aula03/Árvore ambígua.canvas",
+    "Árvore ambígua.md",
+    "vault/Aula03/Árvore.canvas",
+    "vault/Aula01/Árvore Gramatical.canvas",
+    "vault/Aula11/Interação entre o scanner e o parser.canvas",
+    "vault/Aula16/diagramaAFN.canvas",
+    "vault/Aula09/Tradução de condicionais e laços.canvas",
+    "vault/Aula09/Exemplo máquina de pilha.canvas",
+    "vault/Aula01/Fluxo Programa Executável.canvas",
+    "vault/Aula01/Fases Compilador.canvas",
+    "vault/Aula01/Exemplo Análise.canvas",
+    "Árvore.md",
+    "vault/Aula03/Sem título 1.md",
+    "compiladores/2_1_visao_geral.pdf",
+    "compiladores/3_2_buferizacao_da_entrada.pdf",
+    "compiladores/3_1_o_papel_do_analisador_lexico.pdf",
+    "vault/Aula11/-main.md",
+    "vault/Aula09/-main.md",
+    "vault/Aula09/Máquina de pilha abstrata.md",
+    "compiladores/2_9_juntando_as_tecnicas.pdf",
+    "compiladores/2_8_maquinas_de_pilha_abstratas.pdf",
+    "banco_de_provas/provas/2023_1_Gab2.pdf",
+    "banco_de_provas/provas/2023_1_P2.pdf",
+    "vault/Aula16/Automatos.md",
+    "vault/Aula01/Fases de um compilador.md",
+    "vault/Aula01/Análise e Síntese.md",
+    "vault/Aula01/Tokens.md",
+    "vault/Aula01/-main.md",
+    "vault/Aula01/Interfaces de Vanguarda e Retaguarda.md",
+    "vault/Aula01/teste/Tokens.md",
+    "vault/Aula01/teste/Interfaces de Vanguarda e Retaguarda.md",
+    "vault/Aula01/teste/-main.md"
   ]
 }

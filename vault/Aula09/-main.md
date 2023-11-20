@@ -1,0 +1,5 @@
+> [2_8_maquinas_de_pilha_abstratas](2_8_maquinas_de_pilha_abstratas.pdf)
+# [Máquina de pilha abstrata](Máquina%20de%20pilha%20abstrata.md)
+A [interface de vanguarda](Interfaces%20de%20Vanguarda%20e%20Retaguarda.md) do compilador irá produzir uma **representação intermediária** que será usada pela [interface de retaguarda](Interfaces%20de%20Vanguarda%20e%20Retaguarda.md) para produzir o programa alvo. Uma possível representação para esta forma intermediária pode ser a [[Máquina de pilha abstrata]].
+# [[Valores-R e Valores-L]]
+O significado de um identificador depende da posição em que ele está em uma atribuição. No lado esquerdo, o identificador, refere-se ao endereço de memória que deve ser armazenado o valor. No lado direito refere-se ao valor que está armazenado naquele endereço de memória associado ao identificador. 

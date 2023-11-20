@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"3e0bb54dca226e9b","type":"text","text":"código para `expr`","x":-407,"y":-280,"width":214,"height":60,"color":"6"},
+		{"id":"3ba418e8ec198ae4","type":"text","text":"gofalse `saida`","x":-407,"y":-220,"width":214,"height":60,"color":"6"},
+		{"id":"a7f56fb3a5fff5a2","type":"text","text":"código para `cmd`","x":-407,"y":-160,"width":214,"height":60,"color":"6"},
+		{"id":"2af53033364f4dc2","type":"text","text":"rotulo `saida`","x":-407,"y":-100,"width":214,"height":60,"color":"6"},
+		{"id":"78fe42d9320cc43d","type":"text","text":"rotulo `teste`","x":-407,"y":160,"width":214,"height":60,"color":"6"},
+		{"id":"e990f2f1d09bca0d","type":"text","text":"código para `expr`","x":-407,"y":220,"width":214,"height":60,"color":"6"},
+		{"id":"976eb2ef4ff070b4","type":"text","text":"gofalse `saida`","x":-407,"y":280,"width":214,"height":60,"color":"6"},
+		{"id":"3c0c17522be127a2","type":"text","text":"código para `cmd`","x":-407,"y":340,"width":214,"height":60,"color":"6"},
+		{"id":"2e7aa2a1c1dceadf","x":-407,"y":400,"width":214,"height":60,"color":"6","type":"text","text":"goto `teste`"},
+		{"id":"a21e43f1169a5fa9","type":"text","text":"rotulo `saida`","x":-407,"y":460,"width":214,"height":60,"color":"6"},
+		{"id":"5fea7f387cae3b54","type":"text","text":"Testa a condicional","x":-85,"y":-280,"width":229,"height":54},
+		{"id":"21dc43e82231e584","type":"text","text":"Ação a ser executa caso condição seja verdadeira\n","x":-85,"y":-220,"width":229,"height":86},
+		{"id":"84b89c02d71903b8","type":"text","text":"Condicional","x":-85,"y":-340,"width":229,"height":60},
+		{"id":"23713e5e7897fe3c","type":"text","text":"Saída","x":-85,"y":-130,"width":229,"height":60},
+		{"id":"eca34239b70015f8","x":-351,"y":94,"width":102,"height":60,"color":"6","type":"text","text":"while"},
+		{"id":"598a8eaa3a8045e3","type":"text","text":"if","x":-340,"y":-340,"width":80,"height":54,"color":"6"},
+		{"id":"91a419faac162287","x":-95,"y":220,"width":250,"height":60,"type":"text","text":"Testa a condicional e vai para a saída caso falsa"},
+		{"id":"d770d49e237d8109","x":-95,"y":310,"width":250,"height":60,"type":"text","text":"Ação a ser executada se a condição for verdadeira"},
+		{"id":"6b02e4736a23ff8a","x":-95,"y":400,"width":250,"height":60,"type":"text","text":"Salta para o teste"},
+		{"id":"d97a9f0aff2a0733","x":-95,"y":490,"width":250,"height":60,"type":"text","text":"Saida"},
+		{"id":"a08a8807626b70a9","x":-95,"y":130,"width":250,"height":60,"type":"text","text":"Condição"},
+		{"id":"00e78fe48ae4bd54","x":-95,"y":34,"width":250,"height":60,"type":"text","text":"Teste"}
+	],
+	"edges":[
+		{"id":"e4d09a21d7de6d42","fromNode":"3e0bb54dca226e9b","fromSide":"right","toNode":"84b89c02d71903b8","toSide":"left"},
+		{"id":"4158eb9097c200b9","fromNode":"3ba418e8ec198ae4","fromSide":"right","toNode":"5fea7f387cae3b54","toSide":"left"},
+		{"id":"77c04c7d147dceba","fromNode":"a7f56fb3a5fff5a2","fromSide":"right","toNode":"21dc43e82231e584","toSide":"left"},
+		{"id":"b41a2f98afcbe371","fromNode":"2af53033364f4dc2","fromSide":"right","toNode":"23713e5e7897fe3c","toSide":"left"},
+		{"id":"5594d5995b854d22","fromNode":"78fe42d9320cc43d","fromSide":"right","toNode":"00e78fe48ae4bd54","toSide":"left"},
+		{"id":"85c96b24f8b9b4b7","fromNode":"e990f2f1d09bca0d","fromSide":"right","toNode":"a08a8807626b70a9","toSide":"left"},
+		{"id":"3a9f60928b9afb99","fromNode":"976eb2ef4ff070b4","fromSide":"right","toNode":"91a419faac162287","toSide":"left"},
+		{"id":"7214a6a34f92ef60","fromNode":"3c0c17522be127a2","fromSide":"right","toNode":"d770d49e237d8109","toSide":"left"},
+		{"id":"06c9f159647c3a99","fromNode":"2e7aa2a1c1dceadf","fromSide":"right","toNode":"6b02e4736a23ff8a","toSide":"left"},
+		{"id":"cbbae560c3b558cb","fromNode":"a21e43f1169a5fa9","fromSide":"right","toNode":"d97a9f0aff2a0733","toSide":"left"}
+	]
+}

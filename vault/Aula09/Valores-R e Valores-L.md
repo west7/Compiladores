@@ -1,0 +1,2 @@
+O valor-R de um valor refere-se ao valor de fato, já o valor-L refere-se ao endereço de memória no qual o valor está armazenado. Um mesmo identificador pode ser tanto um valor-L quanto valor-R na mesma atribuição, como no exemplo:
+	`x++;` 	que é uma abstração para `x = x + 1;`, na primeira ocorrência o `x`refere-se ao endereço de memória associado, já na segunda ocorrência refere-se ao valor armazenado naquele endereço.

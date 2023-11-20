@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"87c72e15d09a2c74","type":"text","text":"scanner","x":-487,"y":-147,"width":127,"height":60,"color":"6"},
+		{"id":"bfccebdc6a067ea1","type":"text","text":"parser","x":-220,"y":-147,"width":127,"height":60,"color":"6"},
+		{"id":"d11c8f1b827fa28f","type":"text","text":"","x":150,"y":-147,"width":50,"height":55,"color":"#1e1e1e"},
+		{"id":"a45d28abb5205f65","type":"text","text":"tabela de símbolos","x":-360,"y":80,"width":140,"height":60,"color":"6"},
+		{"id":"680b361fb9d6319b","type":"text","text":"","x":-840,"y":-147,"width":50,"height":55,"color":"#1e1e1e"}
+	],
+	"edges":[
+		{"id":"f883617af778a512","fromNode":"680b361fb9d6319b","fromSide":"right","toNode":"87c72e15d09a2c74","toSide":"left","label":"programa fonte"},
+		{"id":"515cb7a16380e9d0","fromNode":"87c72e15d09a2c74","fromSide":"top","toNode":"bfccebdc6a067ea1","toSide":"top","label":"token"},
+		{"id":"9392402aa9edbb51","fromNode":"bfccebdc6a067ea1","fromSide":"bottom","toNode":"87c72e15d09a2c74","toSide":"bottom","label":"próximo token"},
+		{"id":"e399340e5ea5e32a","fromNode":"87c72e15d09a2c74","fromSide":"bottom","toNode":"a45d28abb5205f65","toSide":"left"},
+		{"id":"5c09c371d2ed1237","fromNode":"bfccebdc6a067ea1","fromSide":"bottom","toNode":"a45d28abb5205f65","toSide":"right"},
+		{"id":"3e53572e4f604ded","fromNode":"bfccebdc6a067ea1","fromSide":"right","toNode":"d11c8f1b827fa28f","toSide":"left","color":"#6d6969"}
+	]
+}
