@@ -1,17 +1,17 @@
 {
 	"nodes":[
-		{"id":"4d755911dcec8097","type":"file","file":"vault/Aula01/Análise e Síntese.md","subpath":"#^6d75e1","x":-211,"y":-320,"width":223,"height":80},
-		{"id":"21f016d307c36571","type":"text","text":"Analisador Léxico","x":-211,"y":-120,"width":223,"height":60,"color":"5"},
-		{"id":"29ff652f6b764832","type":"text","text":"Analisador Sintático","x":-211,"y":140,"width":223,"height":60,"color":"5"},
-		{"id":"3efb4b6944720f7d","type":"text","text":"Analisador Semântico","x":-211,"y":580,"width":223,"height":60,"color":"5"},
-		{"id":"b22092bed0cfc630","type":"file","file":"vault/Aula01/Árvore Sintática.canvas","x":-189,"y":320,"width":180,"height":180},
-		{"id":"114e89d25edcefcf","type":"file","file":"vault/Aula01/Árvore Gramatical.canvas","x":-189,"y":760,"width":180,"height":180}
+		{"id":"4d755911dcec8097","type":"file","file":"vault/Aula01/Análise e Síntese.md","subpath":"#^6d75e1","x":-920,"y":120,"width":243,"height":80},
+		{"id":"21f016d307c36571","type":"text","text":"Analisador Léxico","x":-620,"y":130,"width":223,"height":60,"color":"5"},
+		{"id":"29ff652f6b764832","type":"text","text":"Analisador Sintático","x":-60,"y":130,"width":223,"height":60,"color":"5"},
+		{"id":"b22092bed0cfc630","type":"file","file":"vault/Aula01/Árvore Sintática.canvas","x":280,"y":70,"width":180,"height":180},
+		{"id":"3efb4b6944720f7d","type":"text","text":"Analisador Semântico","x":540,"y":130,"width":223,"height":60,"color":"5"},
+		{"id":"114e89d25edcefcf","type":"file","file":"vault/Aula01/Árvore Gramatical.canvas","x":880,"y":70,"width":180,"height":180}
 	],
 	"edges":[
-		{"id":"ed07d732870c75ac","fromNode":"4d755911dcec8097","fromSide":"bottom","toNode":"21f016d307c36571","toSide":"top"},
-		{"id":"1b71ab624f46f540","fromNode":"21f016d307c36571","fromSide":"bottom","toNode":"29ff652f6b764832","toSide":"top","label":"id1 = 1.8 * id2 + 32"},
-		{"id":"0526d6f6cc8082c4","fromNode":"29ff652f6b764832","fromSide":"bottom","toNode":"b22092bed0cfc630","toSide":"top"},
-		{"id":"7d61b01fe7e0a4e0","fromNode":"b22092bed0cfc630","fromSide":"bottom","toNode":"3efb4b6944720f7d","toSide":"top"},
-		{"id":"b224551cec408541","fromNode":"3efb4b6944720f7d","fromSide":"bottom","toNode":"114e89d25edcefcf","toSide":"top"}
+		{"id":"1b71ab624f46f540","fromNode":"21f016d307c36571","fromSide":"right","toNode":"29ff652f6b764832","toSide":"left","label":"id1 = 1.8 * id2 + 32"},
+		{"id":"0526d6f6cc8082c4","fromNode":"29ff652f6b764832","fromSide":"right","toNode":"b22092bed0cfc630","toSide":"left"},
+		{"id":"7d61b01fe7e0a4e0","fromNode":"b22092bed0cfc630","fromSide":"right","toNode":"3efb4b6944720f7d","toSide":"left"},
+		{"id":"b224551cec408541","fromNode":"3efb4b6944720f7d","fromSide":"right","toNode":"114e89d25edcefcf","toSide":"left"},
+		{"id":"52daf03ffc37acd6","fromNode":"4d755911dcec8097","fromSide":"right","toNode":"21f016d307c36571","toSide":"left"}
 	]
 }

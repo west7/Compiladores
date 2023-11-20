@@ -23,9 +23,14 @@ Agrupa de maneira hierárquica os tokens, geralmente em uma árvore gramatical. 
 
 [Árvore Sintática](Árvore%20Sintática.canvas)
 
+![](../assets/Pasted%20image%2020231119220636.png)
+
 ## Análise semântica
 A análise semântica verifica possíveis erros semânticos no programa fonte. Ela usa a árvore sintática para atribuir tipos aos operandos e operadores da árvore, além de fazer a verificação de tipos. Caso os tipos não sejam compatíveis ela pode sinalizar erros ou realizar uma promoção/conversão de tipo. Por exemplo, na expressão: `F = 1.8 * C + 32`, o operando a esquerda da soma tem tipo `float`, já o operando a direita da soma tem tipo `int`, portanto o valor `32`deve ser promovido a `float`.
+
 [Árvore Gramatical](Árvore%20Gramatical.canvas)
+
+![](../assets/Pasted%20image%2020231119220731.png)
 
 ---
 # Síntese

@@ -23,11 +23,14 @@
             "id": "b94a1edb969368a9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "vault/Aula01/Fases de um compilador.md",
-                "mode": "source",
-                "source": false
+                "file": "vault/Aula01/Fases Compilador.canvas",
+                "viewState": {
+                  "x": -530.5,
+                  "y": -340,
+                  "zoom": 0
+                }
               }
             }
           },
@@ -37,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vault/Aula01/-main.md",
+                "file": "vault/Aula01/Tokens.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vault/Aula01/-main.md",
+                "file": "vault/Aula01/Tokens.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "vault/Aula01/-main.md",
+                "file": "vault/Aula01/Tokens.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vault/Aula01/-main.md"
+                "file": "vault/Aula01/Tokens.md"
               }
             }
           }
@@ -173,21 +176,26 @@
   },
   "active": "332a15e06966bdab",
   "lastOpenFiles": [
-    "vault/assets/Pasted image 20231119215842.png",
-    "vault/assets/Pasted image 20231119215531.png",
-    "vault/Aula01/-main.md",
-    "vault/Aula01/Fluxo Programa Executável.canvas",
-    "vault/assets/Fluxo Programa Executável.png",
     "vault/Aula01/Análise e Síntese.md",
+    "vault/assets/Pasted image 20231119220731.png",
     "vault/Aula01/Árvore Gramatical.canvas",
+    "vault/assets/Pasted image 20231119220636.png",
     "vault/Aula01/Árvore Sintática.canvas",
+    "vault/Aula01/Tokens.md",
+    "vault/assets/Pasted image 20231119220526.png",
     "vault/Aula01/Exemplo Análise.canvas",
     "vault/Aula01/Fases Compilador.canvas",
+    "vault/Aula01/Fases de um compilador.md",
+    "vault/assets/Pasted image 20231119220247.png",
+    "vault/Aula01/-main.md",
     "vault/Aula04/-main.md",
+    "vault/assets/Pasted image 20231119215842.png",
+    "vault/assets/Pasted image 20231119215531.png",
+    "vault/Aula01/Fluxo Programa Executável.canvas",
+    "vault/assets/Fluxo Programa Executável.png",
     "vault/assets",
     "vault/Pasta sem título",
     "vault/Aula01/Interfaces de Vanguarda e Retaguarda.md",
-    "vault/Aula01/Fases de um compilador.md",
     "compiladores/2_3_traducao_dirigida_pela_sintaxe.pdf",
     "vault/Aula03/Operadores.md",
     "vault/Aula03/-main.md",
@@ -212,7 +220,6 @@
     "compiladores/2_9_juntando_as_tecnicas.pdf",
     "compiladores/2_8_maquinas_de_pilha_abstratas.pdf",
     "vault/Aula16/Automatos.md",
-    "vault/Aula01/Tokens.md",
     "vault/Aula01/teste/Tokens.md",
     "vault/Aula01/teste/Interfaces de Vanguarda e Retaguarda.md",
     "vault/Aula01/teste/-main.md"
