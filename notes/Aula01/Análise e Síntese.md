@@ -38,3 +38,5 @@ A síntese é composta por 3 fases:
 1. **Gerador de código intermediário** - Nesta fase, o compilador cria um código intermediário que serve como uma **representação abstrata** do programa-fonte. Esse código é projetado para ser **independente da arquitetura** específica do hardware de destino;
 2. **Otimizador de código** - O código intermediário passa por um otimizador, que realiza diversas transformações para melhorar a eficiência do código. Isso pode incluir eliminação de código morto, propagação de constantes, otimização de laços, entre outras técnicas;
 3. **Gerador de código** - Com base no código otimizado, o compilador gera o código de máquina ou código de linguagem de montagem específico para a arquitetura do hardware de destino. Essa fase também pode envolver a alocação de registros, manipulação de pilha, e outras considerações específicas da arquitetura.compiladores 1
+
+[[vault/Aula01/-main|voltar.]]

@@ -8,29 +8,30 @@ Existem algumas expressões que contém ambiguidades que não são resolvida por
 #### Construção da gramática
 
 - É possível construir uma gramática com precedência de operadores a partir das seguintes regras:
-	1. Construa uma tabela com a associatividade e precedência dos operadores, em ordem decrescente de precedência:
-		associatividade à esquerda (+, - )
-		associatividade à esquerda ( * , / )
-	2. Crie um **não-terminal** para cada nível (*expr, term*) e um não terminal extra para unidades básicas da expressão (*fator*):
-		*fator* -> **digito** | (*expr*)
-	3. Defina as produções para o último terminal criado a partir dos níveis de precedência de operadores:
-		*term* -> *term* * *fator* |
-			      *term* / *fator*  |
-			      *fator*
-	4. Faça o mesmo para os demais operadores:
-		*expr* -> *expr* + *term* |
-			      *expr* - *term* |
-			      *term*
+1. Construa uma tabela com a associatividade e precedência dos operadores, em ordem decrescente de precedência:
+	associatividade à esquerda (+, - )
+	associatividade à esquerda ( * , / )
+2. Crie um **não-terminal** para cada nível (*expr, term*) e um não terminal extra para unidades básicas da expressão (*fator*):
+	*fator* -> **digito** | (*expr*)
+3. Defina as produções para o último terminal criado a partir dos níveis de precedência de operadores:
+	*term* -> *term* * *fator* |
+			  *term* / *fator*  |
+			  *fator*
+4. Faça o mesmo para os demais operadores:
+	*expr* -> *expr* + *term* |
+			  *expr* - *term* |
+			  *term*
 
 No final obtêm-se a seguinte gramática G:
+
 (G)
-		*expr* ->  *expr* + *term* |
-			          *expr* - *term*  |
-			          *term*
-		*term* ->  *term* * *fator* |
-			          *term* / *fator*  |
-			          *fator*
-		*fator* ->  **digito** | ( *expr* )
+*expr* ->  *expr* + *term* |
+			  *expr* - *term*  |
+			  *term*
+*term* ->  *term* * *fator* |
+			  *term* / *fator*  |
+			  *fator*
+*fator* ->  **digito** | ( *expr* )
 
 A presença de parêntesis na definição de *<u>fator</u>* permite escrever expressões com níveis arbitrários de aninhamento, sendo que os parêntesis tem precedência sobre todos os operadores definidos.
 

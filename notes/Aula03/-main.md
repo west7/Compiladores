@@ -37,11 +37,15 @@ Dada uma gramática livre de contexto, uma árvore possui as seguintes regras
 
 [[Árvore.canvas|Visualização da árvore para a expressão 1 - 2 + 3]]
 
+![](Pasted%20image%2020231209113455.png)
+
 As folhas da árvore gramatical, lidas da esquerda para a direita, o resultado é o produto daquela árvore, a cadeia derivada a partir da raiz não terminal. Este processo é denominado de análise gramatical ou análise sintática, daquela cadeia. Se uma gramática permite a construção de duas ou mais árvores que resultem naquela mesma cadeia, esta gramática é denominada **ambígua**. Contudo, a gramática descrita na [[Árvore.canvas|árvore]] não é ambígua, porém, caso a diferenciação entre *digito* e *expr*, seja removida, teríamos a seguinte gramática ambígua:
 
 *expr* -> *expr* + *expr* | *expr* - *expr* | **0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9**  ^c33b4d
 
 Que geraria as seguintes [[Árvore ambígua.canvas|árvores]] ambíguas.
+
+![](Pasted%20image%2020231209113559.png)
 
 Note que uma única expressão é capaz de gerar duas árvores que produzem a exata mesma expressão
 

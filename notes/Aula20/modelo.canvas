@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"67a70854640059ce","type":"group","x":-240,"y":-285,"width":308,"height":105,"color":"#1e1e1e","label":"Entrada"},
+		{"id":"0d78c8f0da7284b5","type":"group","x":-480,"y":-140,"width":108,"height":292,"color":"#1e1e1e","label":"Pilha"},
+		{"id":"0849136574e33796","type":"text","text":"Z","x":-460,"y":-120,"width":68,"height":63,"color":"6"},
+		{"id":"197874f25c627b20","type":"text","text":"X","x":-460,"y":6,"width":68,"height":63,"color":"6"},
+		{"id":"01ed64e563c35a1d","type":"text","text":"$","x":-460,"y":69,"width":68,"height":63,"color":"6"},
+		{"id":"12b598502a14cb28","type":"text","text":"Y","x":-459,"y":-57,"width":68,"height":63,"color":"6"},
+		{"id":"2df18cf63acb2a2a","type":"text","text":"a","x":-220,"y":-265,"width":67,"height":65,"color":"6"},
+		{"id":"7e90f68dc946a9e3","type":"text","text":"`+`","x":-153,"y":-265,"width":67,"height":65,"color":"6"},
+		{"id":"dd90ecf4b58a579c","type":"text","text":"b","x":-86,"y":-265,"width":67,"height":65,"color":"6"},
+		{"id":"a0440e245f68df64","type":"text","text":"$","x":-19,"y":-265,"width":67,"height":65,"color":"6"},
+		{"id":"2d14cc6fec8a8665","type":"text","text":"**Analisador sintático preditivo não-recursivo**","x":-211,"y":-41,"width":250,"height":94,"color":"2"},
+		{"id":"2465a3864a2f48ae","type":"text","text":"\n**Tabela Sintática *M***","x":-211,"y":200,"width":250,"height":80,"color":"6"},
+		{"id":"f1429dd4c187f4b2","type":"text","text":"**Saída**","x":180,"y":-25,"width":250,"height":60,"color":"#1e1e1e"}
+	],
+	"edges":[
+		{"id":"2a7a326f3751e051","fromNode":"2d14cc6fec8a8665","fromSide":"top","toNode":"67a70854640059ce","toSide":"bottom"},
+		{"id":"489989c3b2b2ec08","fromNode":"2d14cc6fec8a8665","fromSide":"left","toNode":"0d78c8f0da7284b5","toSide":"right"},
+		{"id":"be3838ed2d2abb9d","fromNode":"2d14cc6fec8a8665","fromSide":"bottom","toNode":"2465a3864a2f48ae","toSide":"top"},
+		{"id":"428c876811ad60b3","fromNode":"2d14cc6fec8a8665","fromSide":"right","toNode":"f1429dd4c187f4b2","toSide":"left"}
+	]
+}
